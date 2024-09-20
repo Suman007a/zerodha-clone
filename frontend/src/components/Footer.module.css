@@ -1,0 +1,13 @@
+.socialMediaList{
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.footerEndLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9rem;
+}
