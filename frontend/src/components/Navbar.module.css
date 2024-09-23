@@ -20,3 +20,12 @@
     gap: 45px;
     margin: auto;
 }
+
+.items > li > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.items > li > a:hover{
+    color: blue;
+}
