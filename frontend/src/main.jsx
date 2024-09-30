@@ -32,13 +32,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/support",
-        element: <SupportPage />
+        element: <SupportPage />,
       },
     ],
   },
 ]);
-
-console.log(reactRouter);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

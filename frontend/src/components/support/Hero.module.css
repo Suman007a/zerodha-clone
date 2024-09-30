@@ -1,0 +1,33 @@
+.HeroContainer{
+    width: 100vw;
+    height: 55vh;
+    background-color: #387ed1;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    margin:  0 13em;
+    justify-content: space-between;
+    padding-block: 50px;
+}
+
+.inputContainer{
+    display: flex;
+    margin:  0 13em;
+    gap: 40px;
+}
+
+.supportInput{
+    width: 620px;
+    height: 55px;
+}
+
+.inputContainerLeft > a{
+    display: inline-block;
+    color: white;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    line-height: 40px;
+}
+
