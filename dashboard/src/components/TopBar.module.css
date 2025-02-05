@@ -1,0 +1,32 @@
+.topbarContainer{
+    height: 10vh;
+    min-width: 100%;
+   
+    display: flex;
+    /* align-items: center; */
+    box-shadow: 0px 0px 4px 2px rgb(236, 235, 235);
+}
+
+.indiceContainer{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30.70%;
+    padding: 10px 20px;
+    border-right: 1px solid rgb(224, 224, 224);
+}
+
+.nifty{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sensex{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

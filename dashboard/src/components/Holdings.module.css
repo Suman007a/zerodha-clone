@@ -1,0 +1,17 @@
+.table{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.table > thead > tr > th{
+    border: 1px solid black;
+}
+
+.profit{
+    color: green;
+}
+
+.loss{
+    color: red;
+}

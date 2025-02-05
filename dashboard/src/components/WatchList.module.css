@@ -1,0 +1,81 @@
+.watchlistContainer {
+  flex-basis: 33.3%;
+  height: 100%;
+  position: relative;
+  box-shadow: 0px 0px 4px 1px rgb(236, 235, 235);
+}
+
+.searchContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.searchContainer > input {
+  width: 100%;
+  padding: 2%;
+}
+
+.listItem {
+  width: 100%;
+  position: relative;
+  &:hover {
+    background-color: rgb(225, 225, 170);
+  }
+}
+
+
+.items {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 0.8rem;
+  position: relative; */
+}
+
+.item > div {
+  /* width: 25%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item > div > * {
+  margin-right: 8px;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
+
+.actions {
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+  align-items: center;
+  
+}
+
+.listItem {
+  list-style-type: none;
+  /* padding: 0; */
+  /* border: 1px solid black; */
+}
+
+/* .analytics{
+  font-size: 0.5rem;
+  text-align: center;
+  
+} */

@@ -1,0 +1,72 @@
+.menuContainer {
+  height: 10vh;
+  display: flex;
+  flex-basis: 68%;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 20px; */
+  position: relative;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.logo {
+  width: 30px;
+  height: 20px;
+}
+
+.menus ul {
+  list-style-type: none;
+}
+
+.menus li {
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.hr {
+  border-left: 0.8px solid rgb(243, 242, 242);
+  height: 30px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.profile .avatar {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  color: rgb(221, 139, 221);
+  text-align: center;
+  align-items: center;
+  border-radius: 100%;
+  background: rgb(252, 229, 252);
+  margin-right: 8px;
+  position: relative;
+  font-size: 0.7rem;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.profile .username {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.menu{
+  color: inherit;
+}
+
+.menuSelected{
+  color: yellow;
+}
